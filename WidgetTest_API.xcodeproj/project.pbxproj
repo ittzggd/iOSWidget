@@ -11,7 +11,44 @@
 		0E1E4C7229CAF8F70054F22E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1E4C7129CAF8F70054F22E /* ContentView.swift */; };
 		0E1E4C7429CAF8F90054F22E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E1E4C7329CAF8F90054F22E /* Assets.xcassets */; };
 		0E1E4C7729CAF8F90054F22E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E1E4C7629CAF8F90054F22E /* Preview Assets.xcassets */; };
+		0E1E4C8429CAF91F0054F22E /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E1E4C8329CAF91F0054F22E /* WidgetKit.framework */; };
+		0E1E4C8629CAF91F0054F22E /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E1E4C8529CAF91F0054F22E /* SwiftUI.framework */; };
+		0E1E4C8929CAF91F0054F22E /* widgetTestAPIBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1E4C8829CAF91F0054F22E /* widgetTestAPIBundle.swift */; };
+		0E1E4C8B29CAF91F0054F22E /* widgetTestAPILiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1E4C8A29CAF91F0054F22E /* widgetTestAPILiveActivity.swift */; };
+		0E1E4C8D29CAF91F0054F22E /* widgetTestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1E4C8C29CAF91F0054F22E /* widgetTestAPI.swift */; };
+		0E1E4C9029CAF9210054F22E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E1E4C8F29CAF9210054F22E /* Assets.xcassets */; };
+		0E1E4C9229CAF9210054F22E /* widgetTestAPI.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 0E1E4C8E29CAF91F0054F22E /* widgetTestAPI.intentdefinition */; };
+		0E1E4C9329CAF9210054F22E /* widgetTestAPI.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 0E1E4C8E29CAF91F0054F22E /* widgetTestAPI.intentdefinition */; };
+		0E1E4C9629CAF9210054F22E /* widgetTestAPIExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0E1E4C8129CAF91F0054F22E /* widgetTestAPIExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0E1E4C9F29CAF9940054F22E /* apiStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1E4C9D29CAF9900054F22E /* apiStruct.swift */; };
+		0E1E4CA129CAFB1C0054F22E /* textWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1E4CA029CAFB1C0054F22E /* textWidget.swift */; };
+		0E1E4CA329CB082A0054F22E /* widgetTestConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1E4CA229CB082A0054F22E /* widgetTestConstant.swift */; };
+		0E1E4CA429CB082B0054F22E /* widgetTestConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1E4CA229CB082A0054F22E /* widgetTestConstant.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E1E4C9429CAF9210054F22E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E1E4C6429CAF8F70054F22E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E1E4C8029CAF91F0054F22E;
+			remoteInfo = widgetTestAPIExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0E1E4C9A29CAF9210054F22E /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0E1E4C9629CAF9210054F22E /* widgetTestAPIExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0E1E4C6C29CAF8F70054F22E /* WidgetTest_API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WidgetTest_API.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +56,20 @@
 		0E1E4C7129CAF8F70054F22E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0E1E4C7329CAF8F90054F22E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E1E4C7629CAF8F90054F22E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0E1E4C8129CAF91F0054F22E /* widgetTestAPIExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = widgetTestAPIExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E1E4C8329CAF91F0054F22E /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		0E1E4C8529CAF91F0054F22E /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		0E1E4C8829CAF91F0054F22E /* widgetTestAPIBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = widgetTestAPIBundle.swift; sourceTree = "<group>"; };
+		0E1E4C8A29CAF91F0054F22E /* widgetTestAPILiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = widgetTestAPILiveActivity.swift; sourceTree = "<group>"; };
+		0E1E4C8C29CAF91F0054F22E /* widgetTestAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = widgetTestAPI.swift; sourceTree = "<group>"; };
+		0E1E4C8E29CAF91F0054F22E /* widgetTestAPI.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = widgetTestAPI.intentdefinition; sourceTree = "<group>"; };
+		0E1E4C8F29CAF9210054F22E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E1E4C9129CAF9210054F22E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E1E4C9B29CAF9360054F22E /* WidgetTest_API.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WidgetTest_API.entitlements; sourceTree = "<group>"; };
+		0E1E4C9C29CAF94F0054F22E /* widgetTestAPIExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = widgetTestAPIExtension.entitlements; sourceTree = "<group>"; };
+		0E1E4C9D29CAF9900054F22E /* apiStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apiStruct.swift; sourceTree = "<group>"; };
+		0E1E4CA029CAFB1C0054F22E /* textWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textWidget.swift; sourceTree = "<group>"; };
+		0E1E4CA229CB082A0054F22E /* widgetTestConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = widgetTestConstant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,13 +80,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0E1E4C7E29CAF91F0054F22E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1E4C8629CAF91F0054F22E /* SwiftUI.framework in Frameworks */,
+				0E1E4C8429CAF91F0054F22E /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		0E1E4C6329CAF8F70054F22E = {
 			isa = PBXGroup;
 			children = (
+				0E1E4C9C29CAF94F0054F22E /* widgetTestAPIExtension.entitlements */,
 				0E1E4C6E29CAF8F70054F22E /* WidgetTest_API */,
+				0E1E4C8729CAF91F0054F22E /* widgetTestAPI */,
+				0E1E4C8229CAF91F0054F22E /* Frameworks */,
 				0E1E4C6D29CAF8F70054F22E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				0E1E4C6C29CAF8F70054F22E /* WidgetTest_API.app */,
+				0E1E4C8129CAF91F0054F22E /* widgetTestAPIExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,6 +115,7 @@
 		0E1E4C6E29CAF8F70054F22E /* WidgetTest_API */ = {
 			isa = PBXGroup;
 			children = (
+				0E1E4C9B29CAF9360054F22E /* WidgetTest_API.entitlements */,
 				0E1E4C6F29CAF8F70054F22E /* WidgetTest_APIApp.swift */,
 				0E1E4C7129CAF8F70054F22E /* ContentView.swift */,
 				0E1E4C7329CAF8F90054F22E /* Assets.xcassets */,
@@ -67,6 +132,31 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		0E1E4C8229CAF91F0054F22E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E1E4C8329CAF91F0054F22E /* WidgetKit.framework */,
+				0E1E4C8529CAF91F0054F22E /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0E1E4C8729CAF91F0054F22E /* widgetTestAPI */ = {
+			isa = PBXGroup;
+			children = (
+				0E1E4C8829CAF91F0054F22E /* widgetTestAPIBundle.swift */,
+				0E1E4CA229CB082A0054F22E /* widgetTestConstant.swift */,
+				0E1E4C8A29CAF91F0054F22E /* widgetTestAPILiveActivity.swift */,
+				0E1E4C9D29CAF9900054F22E /* apiStruct.swift */,
+				0E1E4CA029CAFB1C0054F22E /* textWidget.swift */,
+				0E1E4C8C29CAF91F0054F22E /* widgetTestAPI.swift */,
+				0E1E4C8E29CAF91F0054F22E /* widgetTestAPI.intentdefinition */,
+				0E1E4C8F29CAF9210054F22E /* Assets.xcassets */,
+				0E1E4C9129CAF9210054F22E /* Info.plist */,
+			);
+			path = widgetTestAPI;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +167,34 @@
 				0E1E4C6829CAF8F70054F22E /* Sources */,
 				0E1E4C6929CAF8F70054F22E /* Frameworks */,
 				0E1E4C6A29CAF8F70054F22E /* Resources */,
+				0E1E4C9A29CAF9210054F22E /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0E1E4C9529CAF9210054F22E /* PBXTargetDependency */,
 			);
 			name = WidgetTest_API;
 			productName = WidgetTest_API;
 			productReference = 0E1E4C6C29CAF8F70054F22E /* WidgetTest_API.app */;
 			productType = "com.apple.product-type.application";
+		};
+		0E1E4C8029CAF91F0054F22E /* widgetTestAPIExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E1E4C9729CAF9210054F22E /* Build configuration list for PBXNativeTarget "widgetTestAPIExtension" */;
+			buildPhases = (
+				0E1E4C7D29CAF91F0054F22E /* Sources */,
+				0E1E4C7E29CAF91F0054F22E /* Frameworks */,
+				0E1E4C7F29CAF91F0054F22E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = widgetTestAPIExtension;
+			productName = widgetTestAPIExtension;
+			productReference = 0E1E4C8129CAF91F0054F22E /* widgetTestAPIExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +207,9 @@
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					0E1E4C6B29CAF8F70054F22E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					0E1E4C8029CAF91F0054F22E = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
@@ -116,6 +228,7 @@
 			projectRoot = "";
 			targets = (
 				0E1E4C6B29CAF8F70054F22E /* WidgetTest_API */,
+				0E1E4C8029CAF91F0054F22E /* widgetTestAPIExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +243,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0E1E4C7F29CAF91F0054F22E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1E4C9029CAF9210054F22E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,11 +259,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E1E4C7229CAF8F70054F22E /* ContentView.swift in Sources */,
+				0E1E4CA329CB082A0054F22E /* widgetTestConstant.swift in Sources */,
+				0E1E4C9329CAF9210054F22E /* widgetTestAPI.intentdefinition in Sources */,
 				0E1E4C7029CAF8F70054F22E /* WidgetTest_APIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0E1E4C7D29CAF91F0054F22E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1E4C9F29CAF9940054F22E /* apiStruct.swift in Sources */,
+				0E1E4C8929CAF91F0054F22E /* widgetTestAPIBundle.swift in Sources */,
+				0E1E4CA429CB082B0054F22E /* widgetTestConstant.swift in Sources */,
+				0E1E4C9229CAF9210054F22E /* widgetTestAPI.intentdefinition in Sources */,
+				0E1E4C8D29CAF91F0054F22E /* widgetTestAPI.swift in Sources */,
+				0E1E4CA129CAFB1C0054F22E /* textWidget.swift in Sources */,
+				0E1E4C8B29CAF91F0054F22E /* widgetTestAPILiveActivity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E1E4C9529CAF9210054F22E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E1E4C8029CAF91F0054F22E /* widgetTestAPIExtension */;
+			targetProxy = 0E1E4C9429CAF9210054F22E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0E1E4C7829CAF8F90054F22E /* Debug */ = {
@@ -262,8 +407,10 @@
 		0E1E4C7B29CAF8F90054F22E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WidgetTest_API/WidgetTest_API.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WidgetTest_API/Preview Content\"";
@@ -291,8 +438,10 @@
 		0E1E4C7C29CAF8F90054F22E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WidgetTest_API/WidgetTest_API.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WidgetTest_API/Preview Content\"";
@@ -317,6 +466,62 @@
 			};
 			name = Release;
 		};
+		0E1E4C9829CAF9210054F22E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = widgetTestAPIExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LT7Z66ZBAP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = widgetTestAPI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = widgetTestAPI;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.hejang.WidgetTest-API.widgetTestAPI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E1E4C9929CAF9210054F22E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = widgetTestAPIExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LT7Z66ZBAP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = widgetTestAPI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = widgetTestAPI;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.hejang.WidgetTest-API.widgetTestAPI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -334,6 +539,15 @@
 			buildConfigurations = (
 				0E1E4C7B29CAF8F90054F22E /* Debug */,
 				0E1E4C7C29CAF8F90054F22E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E1E4C9729CAF9210054F22E /* Build configuration list for PBXNativeTarget "widgetTestAPIExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E1E4C9829CAF9210054F22E /* Debug */,
+				0E1E4C9929CAF9210054F22E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
