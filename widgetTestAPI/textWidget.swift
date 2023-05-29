@@ -96,9 +96,9 @@ struct textWidgeEntryView: View {
                             .foregroundColor(.white)
                             .lineLimit(1)
                         Divider()
-                        
                     }
                 }
+                Text("\(entry.texts.count)")
             }
         }
     }

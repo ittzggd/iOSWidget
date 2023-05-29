@@ -14,5 +14,3 @@ struct TextModel: Codable {
     }
     let datas: [String]
 }
-
-
